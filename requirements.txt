@@ -1,0 +1,10 @@
+torch
+transformers
+datasets
+accelerate
+peft
+trl
+bitsandbytes
+huggingface_hub
+jupyter
+notebook
