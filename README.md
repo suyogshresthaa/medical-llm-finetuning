@@ -97,11 +97,13 @@ Potential future enhancements include:
 
 # Project Structure
 
+```text
 project-root/
 │
 ├── llm-finetuning.ipynb
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -112,5 +114,7 @@ This project is intended for educational purposes.
 ---
 
 # Author
+
 Suyog Shrestha
+
 Knox College - June 2027
