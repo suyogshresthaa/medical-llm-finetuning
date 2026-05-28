@@ -1,6 +1,6 @@
 # Healthcare LLM Adaptation using Parameter-Efficient Fine-Tuning
 
-## Overview
+## Project Overview
 
 This project demonstrates the fine-tuning of a Large Language Model (LLM) on a healthcare-focused conversational dataset using the Hugging Face ecosystem. The notebook implements a parameter-efficient training pipeline with LoRA (Low-Rank Adaptation) and PEFT techniques to adapt a pretrained LLaMA-based model for medical and healthcare-related dialogue generation.
 
@@ -50,9 +50,9 @@ pip install -r requirements.txt
 
 ---
 
-# Usage
+# Running the Project
 
-Run the notebook:
+Run jupyter notebook:
 
 ```bash
 jupyter notebook Fine_Tuning_LLMs_with_HF.ipynb
@@ -63,6 +63,8 @@ or
 ```bash
 jupyter lab
 ```
+
+Open the notebook file and run the cells sequentially.
 
 ---
 
@@ -82,6 +84,8 @@ The project follows the following fine-tuning workflow:
 
 # Future Improvements
 
+Potential future enhancements include:
+
 * Integrate larger medical datasets
 * Add evaluation metrics and benchmarking
 * Experiment with QLoRA optimization
@@ -91,8 +95,22 @@ The project follows the following fine-tuning workflow:
 
 ---
 
+# Project Structure
+
+project-root/
+│
+├── llm-finetuning.ipynb
+├── requirements.txt
+└── README.md
+
+---
+
 # License
 
 This project is intended for educational purposes.
 
-```
+---
+
+# Author
+Suyog Shrestha
+Knox College - June 2027
